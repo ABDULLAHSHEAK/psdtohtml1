@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0
+}
+body{
+    background-image: url(img/01.png)
+}
+/******************************
+top css 
+*******************************/
+section#fast_section {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    background: #464040;
+}
+
+#head{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    overflow: hidden
+}
+.left_div{
+    max-width: 400px;
+    /* width: 50%; */
+    float: left;
+    padding: 25px 0;
+}
+.left_div ul{
+    list-style: none;
+}
+.left_div ul li{
+    display: inline-block;
+}
+.left_div ul li a{
+    text-decoration: none;
+    color: #d6bcbc;
+}
+.right_div{
+    max-width: 400px;
+    float: right;
+    padding: 15px 0;
+}
+#social{
+    color: white;
+    padding: 7px;
+    font-size: 23px;
+    border-radius: 23px;
+    margin-left: 4px;
+    background: #a77676;
+    transition: all .5s;
+}
+
+
+#social:hover{
+    background: red;
+}
+
+
+/******************************
+mobile menu css
+***********/
+#show_btn,#hide_btn{
+    color:red;
+    transition: 0.8s;
+    font-size: 40px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+#check{
+   position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+/******************************
+navigation css 
+*******************************/
+
+section#second_nav{
+    max-width: 1000px;
+    width: 95%;
+    margin: auto;
+    background: white;
+}
+.nav_div{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+}
+.nav_div ul{
+    list-style: none;
+}
+.nav_div ul li{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 25px 0px;
+    border-bottom: 5px solid #b7abab;
+    transition: all .5s;
+}
+.nav_div ul li:hover{
+    border-bottom: 5px solid #0099ff;
+}
+
+.nav_div ul li a{
+    color: #131010;
+    text-decoration: none;
+}
+
+/******************************
+navigation css 
+*******************************/
+section#logo{
+    max-width: 1000px;
+    width: 96%;
+    margin: auto;
+    background: white;
+}
+.logo_div{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    padding: 45px 0;
+}
+.logo{
+    max-width: 400px;
+    float: left;
+}
+.src{
+    float: right;
+    max-width: 400px;
+}
+#input{
+    background: #ddd;
+    border: 1px solid #ddd;
+    width: 215px;
+    height: 31px;
+    border-radius: 5px;
+}
+#btn{
+    background: #0099ff;
+    width: 68px;
+    height: 31px;
+    border: 1px solid #0099ff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/******************************
+middle css 
+*******************************/
+section#middle_sec{
+    max-width: 1000px;
+    width: 96%;
+    margin: auto;
+    background: #f1f1f1;
+    border-top: 6px solid #ddd;
+    border-bottom: 6px solid #ddd;
+}
+.middle_div{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.left_middle{
+    max-width: 381px;
+    float: left;
+    margin-top: 144px;
+}
+.right_middle{
+    max-width: 568px;
+    float: right;
+    margin: 13px 0;
+}
+.left_middle h1 {
+    font-size: 28pt;
+    font-family: sans-serif;
+    color: #635656;
+}
+#prag{
+    font-size: 17px;
+    color: #695e5e;
+    margin: 16px 0;
+    width: 373px;
+}
+.btne{
+    background: #0099ff;
+    width: 126px;
+    height: 32px;
+    border: 2px solid #0099ff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/******************************
+middle css 
+*******************************/
+section#cmt_logo{
+    max-width: 1000px;
+    width: 96%;
+    margin: auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+.cmt_div{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.left_cmt{
+    max-width: 468px;
+    float: left;
+}
+.right_cmt{
+    /* max-width: 657px; */
+    float: right;
+    width: 490px;
+}
+.mini_div{
+    width: 217px;
+    /* background: #ddd; */
+    display: inline-block;
+    margin: 0px 13px 18px;
+    height: 225px;
+}
+.mini_div img {margin: 0 0 0 63px;}
+
+.mini_div h3 {
+    text-align: center;
+    font-size: 17px;
+    color: #0099ff;
+    margin: 5px 0;
+}
+
+p.mini_prag {
+    color: #5d4d4d;
+    text-align: center;
+    font-size: 15px;
+}
+
+/******************************
+logo css 
+*******************************/
+section#logo_sec{
+    max-width: 1000px;
+    width: 96%;
+    margin: auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+.log{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+/******************************
+footer css 
+*******************************/
+section#footer{
+    max-width: 1000px;
+    width: 96%;
+    margin:auto;
+    overflow: hidden;
+    background: #503f3f;
+}
+.main_footer{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    margin: 0 0 50px 25px;
+}
+.extra_div{
+    width: 225px;
+    height: 404px;
+    display: inline-block;
+    margin-right: 12px;
+    overflow: hidden;
+}
+h4 {
+    margin: 45px 0 32px 0;
+    color: #e6d9d9;
+}
+
+p.last_p {
+    margin: 22px 0 12px 0;
+    font-size: 12pt;
+    color: #e2c8c8;
+}
+
+.extra_div a {
+    text-decoration: none;
+    margin-left: 131px;
+    color: beige;
+}
+.extra_div ul {
+    list-style: none;
+}
+.extra_div ul li {
+    margin: 6px 0;
+    border-bottom: 2px solid #4e4444;
+    color: #e6d9d9;
+    cursor: pointer;
+}
+input[type="text"] {
+    background: #232323;
+    border: 1px solid #232323;
+    margin-bottom: 18px;
+    /* padding: 8px; */
+    width: 225px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+textarea {
+    background: #232323;
+    width: 225px;
+    height: 110px;
+}
+button#sub {
+    background: #0099ff;
+    border: 1px solid #0099ff;
+    border-radius: 4px;
+    width: 76px;
+    height: 31px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-ff: unset;
+    font-family: sans-serif;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.foot {
+    background: #272722;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
